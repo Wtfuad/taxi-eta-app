@@ -9,8 +9,17 @@ env/
 .vscode/
 .idea/
 
-# real model artifacts are not committed (they are exported from the notebook and may be large or confidential)
+# Exported artifacts required by the deployed app. Keep unrelated model-folder files ignored.
 models/*
 !models/.gitkeep
 !models/README.md
+!models/config.json
+!models/metrics.json
+!models/error_quantiles.json
+!models/demo_trips.csv
+!models/aux/
+!models/_aux/
+!models/final/
+!models/priors/
+!models/loc/
 
