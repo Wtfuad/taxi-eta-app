@@ -1,0 +1,16 @@
+__pycache__/
+.pytest_cache/
+*.pyc
+.venv/
+venv/
+env/
+.env
+*.log
+.vscode/
+.idea/
+
+# real model artifacts are not committed (they are exported from the notebook and may be large or confidential)
+models/*
+!models/.gitkeep
+!models/README.md
+

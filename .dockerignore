@@ -1,0 +1,7 @@
+tests
+**/__pycache__
+.git
+.pytest_cache
+*.zip
+*.ipynb
+README.md
